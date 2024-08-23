@@ -1,0 +1,43 @@
+/* Aqui vou importar a DESGRAÇA DA FONTE DIFERENTE PQ EU QUERO CARALHOOOOOO */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1721419336937-86dc7d479f2c?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke ;
+    font-size: 35px; 
+}
+
+header {
+    padding: 10px; /* padding é a margem dentro da borda, já o margin é no externo da borda*/
+    font-size:32px;
+    color: rgba(245, 245, 245, 0.356);
+    font-family: 'Orbitron', sans-serif;
+}
+    
+.chamada{
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display:flex;
+    justify-content:center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+ img{
+    height: 150;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
